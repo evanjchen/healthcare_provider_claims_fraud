@@ -72,7 +72,7 @@ This is the core of the project. Raw claims have no predictive power — the sig
 - Inpatient and outpatient claims are tagged by type and concatenated with shared columns including `OperatingPhysician` and `OtherPhysician` (retained for physician network analysis despite sparsity in outpatient — their presence on outpatient claims is itself anomalous and fraud-relevant)
 - Beneficiary features merged in: chronic count, ESRD flag, deceased flag, annual reimbursement amounts, and annual deductible amounts (`IPAnnualDeductibleAmt`, `OPAnnualDeductibleAmt`)
 
-**Provider-Level Aggregation** (the key step)
+**Provider-Level Aggregation** 
 - Volume: total claims, unique patients, unique physicians
 - Financial: mean/median/std/max reimbursement, mean deductible, total reimbursement
 - Duration: mean claim duration, mean length of stay
