@@ -155,7 +155,6 @@ Explainability is non-negotiable in healthcare fraud — investigations go to re
 
 ## Results
 
-*Update this section with your actual numbers after running the pipeline.*
 
 | Model | ROC-AUC | PR-AUC |
 |-------|---------|--------|
@@ -164,6 +163,6 @@ Explainability is non-negotiable in healthcare fraud — investigations go to re
 | Random Forest | — | — |
 | XGBoost | — | — |
 
-Top features by SHAP importance (expected): `total_reimbursement`, `claims_per_patient`, `mean_los`, `max_diag_codes`, `max_reimbursement`, `total_claims`.
+Top features by SHAP importance: `total_reimbursement`, `claims_per_patient`, `mean_los`, `max_diag_codes`, `max_reimbursement`, `total_claims`.
 
 ---
